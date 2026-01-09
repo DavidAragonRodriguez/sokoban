@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+
+""" Constanes que se utilizan en el programa Sokoban """
+MURO = '#'
+JUGADOR = '@'
+CAJA = '$'
+CAJA_EN_OBJETIVO = '*'
+OBJETIVO = '.'
+JUGADOR_EN_OBJETIVO = '+'
+VACIO = ' '
+
+TAREA1 = 'T1'
+TAREA2_SUCESORES = 'T2S'
+TAREA2_OBJETIVO = 'T2T'
+TAREA3 = 'T3'
+
+MOV_ARRIBA = 'u'
+MOV_DERECHA = 'r'
+MOV_ABAJO = 'd'
+MOV_IZQUIERDA = 'l'
+NO_ACCION = 'NOTHING'
+
+TRUE_STR = 'TRUE'
+FALSE_STR = 'FALSE'
+
+EN_ANCHURA = 'BFS'
+EN_PROFUNDIDAD = 'DFS'
+COSTO_UNIFORME = 'UC'
+VORAZ = 'GREEDY'
+A_ESTRELLA = 'A*'
+
+MSJ_NO_SOLUCION = 'No solution'
